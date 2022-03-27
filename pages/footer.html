@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../assets/js/main.js"></script>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <!-- =====BOX ICONS===== -->
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+        <footer class="footer" id="footer">
+            <div class="footer__main">
+                <div class="footer__left">
+                    <p class="footer__title">Rahul</p>
+                    <div class="mailList" style="color: white;">
+                        <ul>
+                            <li ><i class="uil uil-envelope-alt " style="padding-right: 0.25rem;" ></i><a href="mailto:prb029@gmail.com">prb029@gmail.com</a></li>
+                            <li ><i class="uil uil-envelope-alt " style="padding-right: 0.25rem;"></i><a href="mailto:pr22@iitbbs.ac.in">pr22@iitbbs.ac.in</a></li>
+                         </ul>
+                    </div>
+                </div>
+                <!-- <p class="footer__copy">&#169; 2022. All rigths reserved</p> -->
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/rahul.pendyala.1407" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/_just.rahul_/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/p-rahul-1407/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                    <a class="footer__icon" style="size: 1rem;">
+                        <i class='footer__icon fa fa-eye'>
+                            <span id="CounterVisitor"  class="counter-item" style="margin-left: .25rem; font-size: small;"></span>
+                        </i>
+                        </a>
+                    <!-- </a> -->
+                    
+                    <script>
+                    var n = localStorage.getItem('on_load_counter');
+                    
+                    if (n === null) {
+                      n = 0;
+                    }
+                    n++;
+                    
+                    localStorage.setItem("on_load_counter", n);
+                    
+                    nums = n.toString().split('').map(Number);
+                    document.getElementById('CounterVisitor').innerHTML = '';
+                    for (var i of nums) {
+                      document.getElementById('CounterVisitor').innerHTML +=  i  ;
+                    }
+                    document.getElementById('CounterVisitor').innerHTML += " Visitors";
+                    </script>
+                    
+                </div>
+            </div>
+            
+        </footer>
+    </body>
+    
+</html>

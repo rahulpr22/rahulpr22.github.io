@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../assets/js/main.js"></script>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <!-- =====BOX ICONS===== -->
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <title>Gallery</title>
+        <script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>
+        <script> 
+            $(function(){ $("head").load("header.html") });
+        </script>
+        <script> 
+            $(function(){ $("head").load("footer.html") });
+        </script>
+    </head>
+    <body>
+      <iframe src="../pages/header.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+        <section class="gallery section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+
+            <div class="container bd-grid">
+               <div class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+
+                  <li id="carousel__slide1"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/1.jpg"></div>
+                      <a href="#carousel__slide8"
+                         class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide2"
+                         class="carousel__next">Go to next slide</a>
+                    
+                  </li>
+                  <li id="carousel__slide2"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/2.jpg"></div>
+                    <a href="#carousel__slide1"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide3"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide3"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/3.jpg"></div>
+                    <a href="#carousel__slide2"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide4"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide4"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/4.jpg"></div>
+                    <a href="#carousel__slide3"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide5"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide5"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/5.jpg"></div>
+                    <a href="#carousel__slide4"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide6"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide6"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/6.jpg"></div>
+                    <a href="#carousel__slide5"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide7"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide7"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/7.jpg"></div>
+                    <a href="#carousel__slide6"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide8"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide8"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"><img src="../assets/img/gallery/8.jpg"></div>
+                    <a href="#carousel__slide7"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  
+                </ol>
+                <aside class="carousel__navigation">
+                  <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1"
+                         class="carousel__navigation-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2"
+                         class="carousel__navigation-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3"
+                         class="carousel__navigation-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4"
+                         class="carousel__navigation-button">Go to slide 4</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide5"
+                           class="carousel__navigation-button">Go to slide 5</a>
+                      </li>
+                      <li class="carousel__navigation-item">
+                        <a href="#carousel__slide6"
+                           class="carousel__navigation-button">Go to slide 6</a>
+                      </li>
+                      <li class="carousel__navigation-item">
+                        <a href="#carousel__slide7"
+                           class="carousel__navigation-button">Go to slide 7</a>
+                      </li>
+                      <li class="carousel__navigation-item">
+                        <a href="#carousel__slide8"
+                           class="carousel__navigation-button">Go to slide 8</a>
+                      </li>
+                  </ol>
+                </aside></div>
+                
+            </div>
+
+            <h3 style="position: relative; font-size: medium; color: #414141; font-weight: 100; text-align: center;"><q>Life moves so fast. You gotta document the good times</q>  - Big Boi</h3>
+        </section>
+        <iframe src="../pages/footer.html" id="iFrameID" frameborder="0"  style="visibility:hidden;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    </body>
+
+</html>
